@@ -3,14 +3,8 @@
 The project aims to conduct a comparative analysis between machine learning models for forecasting the performance of mutual funds from the technology and healthcare sector. The dataset used was obtained from the CRSP database. 
 
 ## Directory Structure
-* archived/ - Previous datafiles and code
-* raw_data/ - Stores raw fund level and macro factors involved in the generation of the datasets
-* scripts/ - Relevant scripts
-* df_ff_factors_100325.csv - Healthcare data used for analysis
-* df_ff_factors_techfunds.csv – Technology data used for analysis
-* healthcare_with_combi.csv – Overall healthcare results (including forecast combinations)
-* tech_with_combi.csv – Overall technology results (including forecast combinations)
 
+The table below describes the folders and key datafiles used:
 | Folder / File Name | Description |
 | ---------  | ------------- |
 | archived | Previous datafiles and code |
@@ -21,7 +15,8 @@ The project aims to conduct a comparative analysis between machine learning mode
 | healthcare_with_combi.csv | Overall healthcare results (including forecast combinations)
 | tech_with_combi.csv | Overall technology results (including forecast combinations) |
 
-* Files in scripts
+Next, the table below describes the scripts used in the report.
+
 | File Name | Description |
 | ---------  | ------------- |
 | alpha_plots.ipynb | Code to generate alpha plots |
