@@ -1,4 +1,4 @@
-# Mutual-Funds-Forecasting
+# AlphaVision
 
 The project aims to conduct a comparative analysis between machine learning models for forecasting the performance of mutual funds from the technology and healthcare sector. The dataset used was obtained from the CRSP database. 
 
