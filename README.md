@@ -1,15 +1,32 @@
 # Mutual-Funds-Forecasting
 
-The project aims to conduct a comparative analysis between machine learning models for forecasting the performance of mutual funds from the technology sector. The dataset used was obtained from the CRSP database. 
+The project aims to conduct a comparative analysis between machine learning models for forecasting the performance of mutual funds from the technology and healthcare sector. The dataset used was obtained from the CRSP database. 
 
 ## Directory Structure
-* plots/ - Contains visualisation outputs for alpha and Sharpe ratio results
-* raw_data/ - Stores raw mutual fund data
-* results_alpha/ - Stores results related to the model training with alpha as the target variable
-* results_sharpe/ - Stores results related to the model training with Sharpe ratio as the target variable
-* wilfred_testing/ - Used for testing and experimental implementations
+* archived/ - Previous datafiles and code
+* raw_data/ - Stores raw fund level and macro factors involved in the generation of the datasets
+* scripts/ - Relevant scripts
+* df_ff_factors_100325.csv - Healthcare data used for analysis
+* df_ff_factors_techfunds.csv – Technology data used for analysis
+* healthcare_with_combi.csv – Overall healthcare results (including forecast combinations)
+* tech_with_combi.csv – Overall technology results (including forecast combinations)
 
-* data_extraction.ipynb - Extracts and preprocesses fund data
-* df_ff_factors.csv / df_ff_factors_010225.csv – Factor model data files
-* training_code_alpha.ipynb – Model training codes for alpha
-* training_code_sharpe_ratio.ipynb - Model training codes for the Sharpe ratio
+| Folder / File Name | Description |
+| ---------  | ------------- |
+| archived | Previous datafiles and code |
+| raw_data | Stores raw fund level and macro factors involved in the generation of the datasets |
+| scripts | Relevant scripts |
+| df_ff_factors_100325.csv | Healthcare data used for analysis |
+| df_ff_factors_techfunds.csv | Technology data used for analysis |
+| healthcare_with_combi.csv | Overall healthcare results (including forecast combinations)
+| tech_with_combi.csv | Overall technology results (including forecast combinations) |
+
+* Files in scripts
+| File Name | Description |
+| ---------  | ------------- |
+| alpha_plots.ipynb | Code to generate alpha plots |
+| data_extraction_healthcare.ipynb | Data extraction script for Healthcare sector |
+| data_extraction_tech.ipynb | Data extraction script for Technology sector |
+| eda.ipynb | EDA Code |
+| forecast_combi.ipynb | Code to generate forecast combinations |
+| traning_code_alpha.ipynb | Code for Models and Hyperparameter Tuning|
