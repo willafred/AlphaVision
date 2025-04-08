@@ -16,8 +16,8 @@ The project aims to conduct a comparative analysis between machine learning mode
 | archived | Previous datafiles and code |
 | raw_data | Stores raw fund level and macro factors involved in the generation of the datasets |
 | scripts | Relevant scripts |
-| df_ff_factors_100325.csv | Healthcare data used for analysis |
-| df_ff_factors_techfunds.csv | Technology data used for analysis |
+| df_ff_factors_healthcare.csv | Healthcare data used for analysis |
+| df_ff_factors_tech.csv | Technology data used for analysis |
 | healthcare_with_combi.csv | Overall healthcare results (including forecast combinations)
 | tech_with_combi.csv | Overall technology results (including forecast combinations) |
 
