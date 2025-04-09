@@ -7,9 +7,9 @@ The project aims to conduct a comparative analysis between machine learning mode
 The table below describes the folders and key datafiles used:
 | Folder / File Name | Description |
 | ---------  | ------------- |
-| archived | Previous datafiles and code |
 | raw_data | Stores raw fund level and macro factors involved in the generation of the datasets |
 | scripts | Relevant scripts |
+| results | Results of analysis |
 | df_ff_factors_healthcare.csv | Healthcare data used for analysis |
 | df_ff_factors_tech.csv | Technology data used for analysis |
 | healthcare_with_combi.csv | Overall healthcare results (including forecast combinations)
